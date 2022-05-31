@@ -1,0 +1,43 @@
+.container{
+	margin: auto;
+	max-width: 1000px;
+	padding: 0 30px;
+	max-height: 600px;
+
+}
+.mtb-3{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.table {
+	box-shadow:0 5px 15px #5c6170;
+	border-collapse: collapse;
+	border:1px solid #4d4d4d ;
+	width: auto;
+	display:block ;
+	overflow-y: auto;
+	height: auto;
+
+}
+.table th, .table td{
+	text-align: center;
+	padding: 10px;
+}
+.table tr:nth-child(even){
+	background: #e6e6e6;
+}
+.table td:not(:last-child){
+	border-right: 1px solid #ccc;
+}
+.table-responsive{
+	overflow-x: auto;
+	overflow-y: auto;
+	box-shadow: 0px 5px 15px #d1c7cb;
+
+}
+.buttons {
+    	text-align: center;
+}
+.h1{
+	text-align: center;
+}
