@@ -1,4 +1,3 @@
-
 <div class="table-responsive">
 
 	<?php echo $dismissed; ?>

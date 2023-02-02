@@ -1,28 +1,25 @@
 <?php
 
-return [
+return
+[
 	'' => [
 		'controller' => 'main',
 		'action' => 'index',
-
 	],
 
 	'inquiry/probation' => [
 		'controller' => 'inquiry',
 		'action' => 'probation',
-
 	],
 
 	'inquiry/dismissed' => [
 		'controller' => 'inquiry',
 		'action' => 'dismissed',
-
 	],
 
-	'inquiry/last_hire' => [
+	'inquiry/lastHire' => [
 		'controller' => 'inquiry',
-		'action' => 'last_hire',
-
+		'action' => 'lastHire',
 	],
 
 
